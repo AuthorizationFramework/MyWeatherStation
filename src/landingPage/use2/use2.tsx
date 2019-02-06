@@ -28,7 +28,9 @@ class UseTwo extends React.Component<IProps, IState> {
   public render() {
     return (
       <div>
+        <div className='use2-container'>
         <p>This is the UseTwo area.</p>
+        </div>
       </div>
     );
   }

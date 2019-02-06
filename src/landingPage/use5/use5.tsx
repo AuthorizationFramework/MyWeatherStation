@@ -28,7 +28,9 @@ class UseFive extends React.Component<IProps, IState> {
   public render() {
     return (
       <div>
+        <div className='use5-container'>
         <p>This is the UseFive area.</p>
+        </div>
       </div>
     );
   }
