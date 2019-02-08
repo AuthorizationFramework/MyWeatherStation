@@ -1,5 +1,5 @@
 import * as React from 'react';
-import './App.css';
+import './App.scss';
 import Banner from './landingPage/Banner/Banner';
 import Footer from './landingPage/Footer/Footer';
 import UseOne from './landingPage/use1/use1';
@@ -11,7 +11,7 @@ import UseFive from './landingPage/use5/use5';
 class App extends React.Component {
   public render() {
     return (
-      <div className="wholeArea?">
+      <div className="main-container">
         <>
           <div className="banner">
             <Banner/>

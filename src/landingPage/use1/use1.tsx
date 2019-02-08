@@ -28,7 +28,10 @@ class UseOne extends React.Component<IProps, IState> {
   public render() {
     return (
       <div>
+        <div className='use1-container'>
         <p>This is the UseOne area.</p>
+        </div>
+       
       </div>
     );
   }

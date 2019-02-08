@@ -28,7 +28,9 @@ class UseThree extends React.Component<IProps, IState> {
   public render() {
     return (
       <div>
+        <div className='use3-container'>
         <p>This is the UseThree area.</p>
+        </div>
       </div>
     );
   }

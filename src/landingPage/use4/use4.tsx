@@ -28,7 +28,9 @@ class UseFour extends React.Component<IProps, IState> {
   public render() {
     return (
       <div>
+        <div className='use4-container'>
         <p>This is the UseFour area.</p>
+        </div>
       </div>
     );
   }
